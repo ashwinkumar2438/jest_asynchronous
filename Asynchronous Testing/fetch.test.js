@@ -1,6 +1,6 @@
 import { fetchData } from "./fetch.js";
 
-describe("scoped area inside a file", () => {
+describe("scoped area inside a file using describe", () => {
   let data = null;
   beforeAll(async () => {
     const res = await fetchData();
